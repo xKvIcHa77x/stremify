@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev --host",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nitropack": "latest"
+  },
+  "dependencies": {
+    "@movie-web/providers": "latest",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "nitro-cors": "^0.7.0",
+    "vm2": "^3.9.19"
+  }
+}
